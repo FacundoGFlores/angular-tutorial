@@ -1,1 +1,1 @@
-# angular-vs
+# angular-tutorial

@@ -1,0 +1,11 @@
+typings
+app/**/*.js
+app/**/*.map
+node_modules
+jspm_packages
+bower_componentstypings
+app/**/*.js
+app/**/*.map
+node_modules
+jspm_packages
+bower_components
