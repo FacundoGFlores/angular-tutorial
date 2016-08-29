@@ -6,7 +6,8 @@ import { HeroService } from './hero.service';
 
 @Component({
   selector: 'my-hero-detail',
-  templateUrl: 'app/hero-detail.component.html'
+  templateUrl: 'app/hero-detail.component.html',
+  styleUrls: ['app/hero-detail.component.css']
 })
 
 export class HeroDetailComponent implements OnInit {
@@ -18,7 +19,7 @@ export class HeroDetailComponent implements OnInit {
   }
   @Input()
   hero: Hero;
-  
+
   ngOnInit(): void {
     this.route.params.forEach((params: Params) => {
       let id = +params['id']; // Convert route parameter to number with + JS
