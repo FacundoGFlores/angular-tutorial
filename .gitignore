@@ -6,6 +6,7 @@ jspm_packages
 bower_componentstypings
 app/**/*.js
 app/**/*.map
+*.log
 node_modules
 jspm_packages
 bower_components
